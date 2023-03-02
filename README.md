@@ -1,4 +1,4 @@
-# blog.m2en.dev
+# blog
 
 👣 m2en's blog
 
