@@ -1,0 +1,36 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read --allow-env --watch main.ts --dev",
+    "serve": "deno run --allow-net --allow-read --allow-env --no-check main.ts",
+    "fmt": "deno fmt --watch main.ts",
+    "fmt:check": "deno fmt --check",
+    "lint": "deno lint",
+    "lint:json": "deno lint --json",
+    "cache": "deno cache main.ts"
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true,
+    "lib": ["deno.window"]
+  },
+  "fmt": {
+    "files": {
+      "include": ["main.ts"]
+    },
+    "options": {
+      "useTabs": false,
+      "indentWidth": 2,
+      "singleQuote": true,
+      "proseWrap": "always"
+    }
+  },
+  "lint": {
+    "files": {
+      "include": ["main.ts"]
+    },
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"]
+    }
+  }
+}
