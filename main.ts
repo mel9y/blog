@@ -1,8 +1,8 @@
 import blog from "https://deno.land/x/blog@0.5.0/blog.tsx";
 
 blog({
-  title: "Ryan Dahl",
-  author: "Ryan Dahl",
+  title: "blog.m2en.dev",
+  author: "m2en",
   avatar: "",
   avatarClass: "full",
   links: [
