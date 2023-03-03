@@ -1,7 +1,7 @@
 import blog from "https://deno.land/x/blog@0.5.0/blog.tsx";
 
 blog({
-  title: "blog",
+  title: "mel9y blog",
   author: "mel9y",
   avatar: "",
   avatarClass: "full",
