@@ -2,11 +2,11 @@ import blog from "https://deno.land/x/blog@0.5.0/blog.tsx";
 
 blog({
   title: "blog",
-  author: "m2en",
+  author: "mel9y",
   avatar: "",
   avatarClass: "full",
   links: [
-    { title: "WebSite", url: "https://m2en.dev" },
-    { title: "GitHub", url: "https://github.com/m2en/blog.m2en.dev" },
+    { title: "WebSite", url: "https://mel9y.dev" },
+    { title: "GitHub", url: "https://github.com/mel9y/blog" },
   ],
 });
