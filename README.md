@@ -1,6 +1,6 @@
 # blog
 
-👣 m2en's blog
+👣 mel9y's blog
 
 You can start the development server with the following command:
 
